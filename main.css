@@ -1,0 +1,18 @@
+body {
+	background-color: black;
+}
+
+.header {
+	color: yellow;
+	text-align: center;
+	font-size: 45px;
+}
+
+.member {
+	color: yellow;
+	background-color: black;
+}
+
+.members {
+	text-align: center;
+}

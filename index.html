@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Band Exercise</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body ng-app>
+	<div ng-init="Wutang = [
+		{ name: 'the RZA' },
+		{ name: 'the GZA' },
+		{ name: 'Method Man' },
+		{ name: 'Raekwon' },
+		{ name: 'Ghostface Killah' },
+		{ name: 'Inspectah Deck' },
+		{ name: 'U-God' },
+		{ name: 'Masta Killa' },
+		{ name: 'Cappadonna' },
+		{ name: 'Ol Dirty Bastard (rip)' }
+		]">
+
+		<div class="header">
+			<h1>It's the Wu!</h1>
+			<img src="wu.png">
+		</div>
+
+		<div class="members">
+			<p ng-repeat="Wutang in Wutang"><span class='member'>{{Wutang.name}}</span>
+			</p>
+		</div>
+
+
+
+
+
+	</div>
+	<script type="text/javascript" src="angular.min.js"></script>
+</body>
+</html>
